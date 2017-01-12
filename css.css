@@ -1,0 +1,96 @@
+body
+{
+	font-size: 5em ;
+	margin: inherit;
+	position: absolute;
+		left: auto		;
+	padding:         0;
+	color:red;
+	text-align: center;
+	background-color: #000;
+	font-family:     'lucida grande', arial, tahoma, sans-serif;
+	background:      transparent url('page.jpg');
+}
+#container
+{   font-size:       100%;
+	margin: auto;
+
+	width:          500px;
+	height: 30px;
+	position: absolute;
+	background-color:  #000;
+;
+}
+
+#header
+{    font-size: large;
+	margin:          0 auto;
+	width:           640px;
+	height:          250px;
+	padding: 10px;
+;
+}
+
+#meniu
+{  font-size:       100%;
+    
+}
+.headtitle
+{
+	position:        relative;
+	font-family:     Times;
+	font-size:       30px;
+	color:           #FFF;
+	top:             210px;
+	left:            12px;
+}
+
+#meniu
+{
+	margin:          0 20px;
+	height:          29px;
+
+}
+
+#meniu ul
+{
+	margin:          0;
+
+
+	height:          29px;
+}
+
+#meniu ul li
+{
+	list-style:      none;
+	display:         inline;
+}
+
+#meniu ul li a:link, #meniu ul li a:active, #meniu ul li a:visited
+{
+	color:           #767676;	
+	padding:         10px 7px 10px 7px;
+	font-size:       1em;
+
+	font-family:     'lucida grande', arial, sans-serif;
+	font-weight:     bold;
+	text-decoration: none;
+}
+
+#meniu ul li a:hover
+{
+	background-color:   #6A7919;
+	color:           #FDFDFD;
+}
+
+#continut
+{   background-color: transparent;
+background-color: lightblue;
+	color:           #000;	
+	padding:         40px 0px 50px 50px;
+	font-size:       1em;
+    margin-left:auto;
+    margin-right: auto;
+	font-family:     'lucida grande', arial, sans-serif;
+	text-align: center;
+}
