@@ -1,0 +1,47 @@
+<div class="container">
+ <div class="row">
+
+        <div class="col-lg-12">
+            <h1 class="page-header">Cazare
+                
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="../index.html">Home</a>
+                </li>
+               
+            </ol>
+        </div>
+
+    </div>
+ <div class="col-lg-12">
+<table class="table">
+			<thead>
+				<th>
+					id
+				</th>
+				<th>
+					nume
+				</th>
+					<th>
+				    capacitate
+				</th>
+				<th>
+				    adresa
+				</th>
+					<th>
+				    url
+				</th>
+			
+			</thead>
+			<tr ng-repeat="cazare in cazare">
+			
+					<td>{{cazare.id}}</td>
+					<td>{cazare.nume}}</td>
+					<td>{{cazare.capacitate}}</td>
+					<td>{{cazare.adresa}}</td>
+                    <td>{{cazare.url}}</td>
+			
+		    </tr>
+</table>
+</div>
+</div>

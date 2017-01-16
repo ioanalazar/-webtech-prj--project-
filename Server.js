@@ -27,9 +27,7 @@ var Cazare = sequelize.define('cazare', {
     Cazare.belongsTo(Zone,{foreignKey: 'id'});
     Cazare.hasOne(Zone, {foreignKey: 'id'});
     
-app.get('/descopera',function(req,res){
-    res.status(200).send([]);
-});
+
 
 app.post('/zone',function(req,res){
     Zone.create(req.body)
@@ -81,6 +79,8 @@ app.put('/zone/:id',function(req,res){
     
 });
                  
-                 
-   
+              
+   app.get('/descopera',function(req,res){
+    res.status(200).send([]);
+});
 app.listen(process.env.PORT);
